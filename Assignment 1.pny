@@ -1,0 +1,366 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP1wsQZuIrZX/AebPQFLnPJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sreeraj008/Class-Assignment-1---Getting-Started-with-Python-Programming/blob/master/Assignment%201.pny\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PRDl3G1AWI6J",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "Question 2"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "2SUBWn_oWzDc",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "0609b61e-43ab-4bc4-fd4c-0be441f49bcd"
+      },
+      "source": [
+        " #address\n",
+        "name=\"Sreeraj K P\"\n",
+        "address=\"Arippattu veetil, Payyannur\"\n",
+        "ph_no=\"9633756218\"\n",
+        "print(name)\n",
+        "print(address)\n",
+        "print (ph_no)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Sreeraj K P\n",
+            "Arippattu veetil, Payyannur\n",
+            "9633756218\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "lClG-yuwanFi",
+        "colab_type": "text"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bJCAXeGka3Jp",
+        "colab_type": "text"
+      },
+      "source": [
+        " Question 3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "F-2Rs-Fxa5ue",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "8ea09617-a766-4841-e24d-43009ceab216"
+      },
+      "source": [
+        " name=\"Sreeraj K P\"\n",
+        "print(\"Your name is\",name)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Your name is Sreeraj K P\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "95YEgBxEbBNW",
+        "colab_type": "text"
+      },
+      "source": [
+        "Question 4"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8uFWO_VDbCsJ",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "00905d87-e7bc-447f-eff9-795ddde944c7"
+      },
+      "source": [
+        " #area of a rectangle \n",
+        "Width = float(input(\"Enter the width: \")) \n",
+        "Height = float(input(\"Enter the height: \")) \n",
+        "area =Width * Height\n",
+        "print(\"The area is\",area, \"Square units\")"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the width: 8\n",
+            "Enter the height: 7\n",
+            "The area is 56.0 Square units\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "LX2F6c8cbTw5",
+        "colab_type": "text"
+      },
+      "source": [
+        "Question 5"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xAgG3gh4bV2W",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "350fcdd2-82a1-4155-e2ce-53d8caf21b49"
+      },
+      "source": [
+        " #area of a triangle \n",
+        "Base= float(input(\"Enter the base: \"))\n",
+        "Height= float(input(\"Enter the height: \")) \n",
+        "area = .5*Base*Height\n",
+        "print(\"The area is\",area, \"square units\")"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the base: 8\n",
+            "Enter the height: 4\n",
+            "The area is 16.0 square units\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "GKHI24wJbqQM",
+        "colab_type": "text"
+      },
+      "source": [
+        "Question 6"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6dnMy2djbsml",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 88
+        },
+        "outputId": "6dd64f96-e670-4ce0-d131-58dd718cd1ec"
+      },
+      "source": [
+        " Name = input(\"Enter your name: \") \n",
+        "Age =input(\"Enter your age: \") \n",
+        "print(\"My name is \"+Name+\" and my age is \"+Age)"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your name: Sreeraj K P \n",
+            "Enter your age: 18\n",
+            "My name is Sreeraj K P  and my age is 18\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "AieFRy-ScKzb",
+        "colab_type": "text"
+      },
+      "source": [
+        "Question 7"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zAm0Z7vwcMtz",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "f72ea2a2-cea1-4030-b127-770f93e9d250"
+      },
+      "source": [
+        " a= float(input(\"Enter a number: \")) \n",
+        "a=a+1\n",
+        "print(a)"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number: 8\n",
+            "9.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "esS30PdEcc_5",
+        "colab_type": "text"
+      },
+      "source": [
+        "Question 8"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "x82Fb7FOcedU",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "d95905b3-e5a8-4e7e-a02c-42494c9076f0"
+      },
+      "source": [
+        " Name=input(\"Enter your name\")\n",
+        "print (name)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your nameSreeraj K P \n",
+            "Sreeraj K P\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ifEHqZwZcqGy",
+        "colab_type": "text"
+      },
+      "source": [
+        "Question 9"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1X6k_KdAc0Q6",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        },
+        "outputId": "cd6089e9-9f0a-4722-ca65-1893e1c65ad5"
+      },
+      "source": [
+        " input (\"Enter your name\")"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your nameSreeraj \n"
+          ],
+          "name": "stdout"
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'Sreeraj '"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 8
+        }
+      ]
+    }
+  ]
+}
